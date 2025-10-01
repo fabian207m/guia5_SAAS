@@ -1,0 +1,13 @@
+<h1>Segundo controlador</h1>
+<h2>Hashes</h2>
+
+<table>
+  <tbody>
+    <% @persona.each do |clave, valor| %>
+      <tr>
+        <th><%= clave.to_s.capitalize %></th>
+        <td><%= valor %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
