@@ -3,7 +3,7 @@ class HashController < ApplicationController
     @persona = {
       nombre: "Fabian",
       apellido: "Pérez",
-      telefono: "89221777",
+      telefono: "8922177777",
       correo: "Fabian@gmail.com"
     }
   end
